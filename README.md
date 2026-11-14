@@ -1,6 +1,6 @@
 # FocusGuard
 
-[![CI](https://github.com/felipecatzkocourek/focusguard/actions/workflows/ci.yml/badge.svg)](https://github.com/felipecatzkocourek/focusguard/actions/workflows/ci.yml)
+[![CI](https://github.com/felipekocourek/focusguard/actions/workflows/ci.yml/badge.svg)](https://github.com/felipekocourek/focusguard/actions/workflows/ci.yml)
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black?logo=apple)
 ![Swift 6](https://img.shields.io/badge/Swift-6-F05138?logo=swift&logoColor=white)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -15,7 +15,7 @@ that blocking is on, how long you've been focused today, and what's blocked. Whe
 a blocked site (that one YouTube tutorial), you can unlock it for a few minutes, but only
 after waiting out a short countdown and writing down why.
 
-> **Status:** [v0.1.0](https://github.com/felipecatzkocourek/focusguard/releases/tag/v0.1.0) released. Pomodoro is next; see the [roadmap](#roadmap).
+> **Status:** [v0.1.0](https://github.com/felipekocourek/focusguard/releases/tag/v0.1.0) released. Pomodoro is next; see the [roadmap](#roadmap).
 
 <!-- TODO: add a screenshot / GIF of the dashboard (docs/screenshot.png) -->
 
@@ -96,7 +96,7 @@ Requirements: macOS 14 Sonoma or later and Swift 6 (the Xcode **Command Line Too
 enough; full Xcode is not required).
 
 ```bash
-git clone https://github.com/felipecatzkocourek/focusguard.git
+git clone https://github.com/felipekocourek/focusguard.git
 cd focusguard
 ./scripts/create-signing-identity.sh   # once; keeps permissions across rebuilds
 ./scripts/build-app.sh --install
@@ -187,10 +187,10 @@ release process.
 
 ## Roadmap
 
-Tracked in [milestones](https://github.com/felipecatzkocourek/focusguard/milestones):
+Tracked in [milestones](https://github.com/felipekocourek/focusguard/milestones):
 
 - ✅ **v0.1.0:** Focus-triggered blocking, dashboard, friction-gated temporary unblocks, Firefox support
-- **v0.2.0:** Pomodoro timer on the dashboard ([#6](https://github.com/felipecatzkocourek/focusguard/issues/6))
+- **v0.2.0:** Pomodoro timer on the dashboard ([#6](https://github.com/felipekocourek/focusguard/issues/6))
 - **Backlog:** a custom "you're in Work mode" page, an app icon
 
 ## Tech stack
